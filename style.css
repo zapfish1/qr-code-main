@@ -1,0 +1,168 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+button {
+  all: unset;
+  display: inline-block;
+  box-sizing: border-box;
+  cursor: pointer;
+  text-align: center;
+}
+
+body {
+  min-height: 100vh;
+  display: grid;
+  place-items: center center;
+}
+
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+@layer theme {
+  :root {
+    --light-grey: hsl(212, 45%, 89%);
+    --grayish-blue: hsl(220, 15%, 55%);
+    --dark-blue: hsl(218, 44%, 22%);
+  }
+}
+
+html {
+  font-family: "Outfit", sans-serif;
+  background-color: var(--light-grey);
+  color: var(--dark-blue);
+}
+
+main {
+  padding: 16px;
+  background-color: white;
+  border-radius: 20px;
+  width: 320px;
+  height: 497px;
+  text-align: center;
+
+  box-shadow: 0px 25px 25px 0px rgb(0 0 0 / 4.77%);
+}
+
+img {
+  border-radius: 20px;
+}
+
+h1 {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+p {
+  color: var(--grayish-blue);
+  font-size: 15px;
+}
+
+.content h1 {
+  padding-bottom: 16px;
+  padding-top: 24px;
+}
+
+.content p {
+  padding-left: 16px;
+  padding-right: 16px;
+}
